@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  font-size: 15px;
+  line-height: 2;
+}
+h2 {
+  margin-top: 0;
+}
+
+#index {
+  background-image: url(../images/main_visual_111-0x0.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  width: 960px;
+  height: 670px;
+  margin: 0 auto;
+  color: white;
+}
+
+.header-logo {
+  float: left;
+  margin-top: 50px;
+}
+
+header img {
+  width: 280px;
+  height: 85px;
+}
+
+.header-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.header-nav li {
+  float: left;
+  margin: 0 20px;
+  list-style: none;
+}
+
+#travel {
+  background-color: #F6F6F6;
+  padding: 50px 0;
+}
+
+.travel-comments {
+  width: 380px;
+  margin: 0 auto;
+
+
+}
+
+#travel h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 75px;
+  font-style: normal;
+  text-align: center;
+}
+
+#travel p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+#products {
+  background-color: #FFFFFF;
+}
+
+.main {
+  width: 820px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.text {
+  width: 200px;
+  height: 40px;
+  float: left;
+}
+.btn a {
+  width: 160px;
+  line-height: 48px;
+  border: 1px solid black;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: black;
+  float: right;
+}
+ .btn a:hover {
+   background-color: black;
+   color: white;
+ }
+
+.main h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#products img {
+  width: 200px;
+  height: 285px;
+}
+
+#products .products-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+#prducts .products-list :last-child(3){
+  margin-right: 0;
+}
+#news {
+  background-color: #f6f6f6;
+}
+
+.news-item img {
+  width: 325px;
+  height: 180;
+  float: left;
+  display: block;
+}
+.article-text {
+  float: right;
+}
+
+#sns {
+  background-color: #FFFFFF;
+}
+
+#sub-nav {
+  background-color: #939899;
+}
+
+footer {
+  background-color: #656C6E;
+}
